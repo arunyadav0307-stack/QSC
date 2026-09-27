@@ -1,0 +1,11 @@
+x^3+x+1 (n=7)                                 q=2 deg=3  L=2..7  exact-MIS == N_f(L): True
+(x+1)(x^3+x+1) (n=7)                          q=2 deg=4  L=2..15  exact-MIS == N_f(L): True
+x^4+x+1 (n=15)                                q=2 deg=4  L=2..15  exact-MIS == N_f(L): True
+(x^2+x+1)(x^4+x+1) (n=15)                     q=2 deg=6  L=2..16  exact-MIS == N_f(L): True
+(x^2+x+1)(x^3+x+1) (n=21)                     q=2 deg=5  L=2..16  exact-MIS == N_f(L): True
+x^5+x^2+1 (n=31)                              q=2 deg=5  L=2..16  exact-MIS == N_f(L): True
+(x+1)^2(x^3+x+1) (n=14, repeated root)        q=2 deg=5  L=2..16  exact-MIS == N_f(L): True
+(x+1)^3 (n=4/8, repeated root)                q=2 deg=3  L=2..7  exact-MIS == N_f(L): True
+x^2+1 over F_3 (n=4, q=3)                     q=3 deg=2  L=2..8  exact-MIS == N_f(L): True
+(x+1)(x^2+1) over F_3 (n=4)                   q=3 deg=3  L=2..16  exact-MIS == N_f(L): True
+ALL OK

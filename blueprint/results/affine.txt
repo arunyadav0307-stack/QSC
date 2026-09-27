@@ -1,0 +1,100 @@
+
+n=15, f=x^4+x+1 (BCH15): r = 4
+ L | y_TN=r-L | best affine y | log2 N_f(L) | N_f(L)
+ 2 | 2        | 2             |       2.807 | 7
+ 3 | 1        | 1             |       2.322 | 5
+ 4 | 0        | 1             |       1.585 | 3
+ 5 | None     | 1             |       1.585 | 3
+ 6 | None     | 1             |       1.000 | 2
+ 7 | None     | 1             |       1.000 | 2
+ 8 | None     | 0             |       0.000 | 1
+ 9 | None     | 0             |       0.000 | 1
+10 | None     | 0             |       0.000 | 1
+11 | None     | 0             |       0.000 | 1
+12 | None     | 0             |       0.000 | 1
+13 | None     | 0             |       0.000 | 1
+14 | None     | 0             |       0.000 | 1
+15 | None     | 0             |       0.000 | 1
+
+n=31, f=M5 (BCH31-b): r = 5
+ L | y_TN=r-L | best affine y | log2 N_f(L) | N_f(L)
+ 2 | 3        | 3             |       3.907 | 15
+ 3 | 2        | 2             |       3.322 | 10
+ 4 | 1        | 2             |       2.807 | 7
+ 5 | 0        | 2             |       2.585 | 6
+ 6 | None     | 1             |       2.322 | 5
+ 7 | None     | 1             |       2.000 | 4
+ 8 | None     | 1             |       1.585 | 3
+ 9 | None     | 1             |       1.585 | 3
+10 | None     | 1             |       1.585 | 3
+11 | None     | 1             |       1.000 | 2
+12 | None     | 1             |       1.000 | 2
+13 | None     | 1             |       1.000 | 2
+14 | None     | 1             |       1.000 | 2
+15 | None     | 1             |       1.000 | 2
+16 | None     | 0             |       0.000 | 1
+17 | None     | 0             |       0.000 | 1
+18 | None     | 0             |       0.000 | 1
+19 | None     | 0             |       0.000 | 1
+20 | None     | 0             |       0.000 | 1
+
+n=63, f=M5 (BCH63-a): r = 6
+ L | y_TN=r-L | best affine y | log2 N_f(L) | N_f(L)
+ 2 | 4        | 4             |       4.954 | 31
+ 3 | 3        | 3             |       4.392 | 21
+ 4 | 2        | 3             |       3.907 | 15
+ 5 | 1        | 3             |       3.585 | 12
+ 6 | 0        | 2             |       3.322 | 10
+ 7 | None     | 2             |       3.170 | 9
+ 8 | None     | 2             |       2.807 | 7
+ 9 | None     | 2             |       2.807 | 7
+10 | None     | 2             |       2.585 | 6
+11 | None     | 2             |       2.322 | 5
+12 | None     | 2             |       2.322 | 5
+13 | None     | 2             |       2.000 | 4
+14 | None     | 2             |       2.000 | 4
+15 | None     | 1             |       2.000 | 4
+16 | None     | 1             |       1.585 | 3
+17 | None     | 1             |       1.585 | 3
+18 | None     | 1             |       1.585 | 3
+19 | None     | 1             |       1.585 | 3
+20 | None     | 1             |       1.585 | 3
+
+BCH15: r=4   y | T–N Lemma-3 window (r-y) | exact max window of the same family | N_f-optimal window for 2^y markers
+    0 |   4 |   15 |   15
+    1 |   3 |    4 |    7
+    2 |   2 |    2 |    3
+
+BCH31-b: r=5   y | T–N Lemma-3 window (r-y) | exact max window of the same family | N_f-optimal window for 2^y markers
+    0 |   5 |   31 |   31
+    1 |   4 |   12 |   15
+    2 |   3 |    4 |    7
+    3 |   2 |    2 |    3
+
+BCH31-c: r=10   y | T–N Lemma-3 window (r-y) | exact max window of the same family | N_f-optimal window for 2^y markers
+    0 |  10 |   31 |   31
+    1 |   9 |   31 |   31
+    2 |   8 |   31 |   31
+    3 |   7 |   31 |   31
+    4 |   6 |    6 |   31
+    5 |   5 |    5 |   31
+    6 |   4 |    4 |   15
+    7 |   3 |    3 |    7
+    8 |   2 |    2 |    3
+
+BCH63-a: r=6   y | T–N Lemma-3 window (r-y) | exact max window of the same family | N_f-optimal window for 2^y markers
+    0 |   6 |   63 |   63
+    1 |   5 |   25 |   31
+    2 |   4 |    5 |   15
+    3 |   3 |    3 |    7
+    4 |   2 |    2 |    3
+
+BCH63-c: r=9   y | T–N Lemma-3 window (r-y) | exact max window of the same family | N_f-optimal window for 2^y markers
+    0 |   9 |   63 |   63
+    1 |   8 |   63 |   63
+    2 |   7 |   20 |   63
+    3 |   6 |    6 |   63
+    4 |   5 |    6 |   31
+    5 |   4 |    4 |   15
+    6 |   3 |    3 |    7
+    7 |   2 |    2 |    3

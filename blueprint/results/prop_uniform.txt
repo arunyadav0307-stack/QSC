@@ -1,0 +1,1 @@
+checked 57384 (n prime in [7,600), r = k*ord_n(2) < n, 2 <= L <= r): failures = 0

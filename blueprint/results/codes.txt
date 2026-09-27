@@ -1,0 +1,11 @@
+BCH31-a   n= 31 C=[31,21,5] D=[31,26,3] r=deg f=5 dual-containing=True nested=True
+BCH31-b   n= 31 C=[31,16,7] D=[31,21,5] r=deg f=5 dual-containing=True nested=True
+BCH31-c   n= 31 C=[31,16,7] D=[31,26,3] r=deg f=10 dual-containing=True nested=True
+QR31-1    n= 31 C=[31,16,7] D=[31,21,5] r=deg f=5 dual-containing=True nested=True
+QR31-2    n= 31 C=[31,16,7] D=[31,26,3] r=deg f=10 dual-containing=True nested=True
+BCH15     n= 15 C=[15,11,3] D=[15,15,1] r=deg f=4 dual-containing=True nested=True
+BCH63-a   n= 63 C=[63,45,7] D=[63,51,5] r=deg f=6 dual-containing=True nested=True
+BCH63-b   n= 63 C=[63,45,7] D=[63,57,3] r=deg f=12 dual-containing=True nested=True
+BCH63-c   n= 63 C=[63,42,7] D=[63,51,5] r=deg f=9 dual-containing=True nested=True
+BCH127-a  n=127 C=[127,106,7] D=[127,113,5] r=deg f=7 dual-containing=True nested=True
+BCH127-b  n=127 C=[127,99,None] D=[127,113,5] r=deg f=14 dual-containing=True nested=True
